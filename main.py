@@ -10,7 +10,7 @@ scheduler = BackgroundScheduler(timezone=timezone('UTC'))
 scheduler.start()
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
-updater = Updater(token='6121892943:AAF7TmmbNcY_PztJ5yFYUmwu-WrE_hCUYvY', use_context=True)
+updater = Updater(token='placeholder', use_context=True)
 dispatcher = updater.dispatcher
 
 
